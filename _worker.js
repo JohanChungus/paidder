@@ -231,7 +231,7 @@ var isCloudFlareIP = (ip) => {
 };
 
 // index.ts
-var HTML404 = "Private VPN <br><br> you cant access this only <a href='https://t.me/vano_ganzzz'>Vano Ganzzz</a> can access.";
+var HTML404 = "ScottsVPN <br><br> you cant access this can access.";
 function delay2(ms) {
   return new Promise((resolve, rej) => {
     setTimeout(resolve, ms);
@@ -241,7 +241,7 @@ var workers_default = {
   async fetch(request, env, ctx) {
     let address = "";
     let portWithRandomLog = "";
-    const userID = env.UUID || "82d5348b-7164-460f-bd7f-4b941b334536";
+    const userID = env.UUID || "172be7fd-b289-4d7e-b54f-95dae6b6db29";
     const log = (info, event) => {
       console.log(`[${address}:${portWithRandomLog}] ${info}`, event || "");
     };
